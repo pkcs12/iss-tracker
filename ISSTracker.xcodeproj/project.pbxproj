@@ -143,7 +143,6 @@
 		389350B528B7CC9200B18C8B /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				389350C728B7F6D000B18C8B /* Location */,
 				389350B628B7CC9200B18C8B /* APIClient */,
 			);
 			path = Services;
@@ -185,21 +184,6 @@
 				389350CD28B7F7FB00B18C8B /* Feedback.swift */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		389350C728B7F6D000B18C8B /* Location */ = {
-			isa = PBXGroup;
-			children = (
-				389350C828B7F6D100B18C8B /* Authenticator */,
-			);
-			path = Location;
-			sourceTree = "<group>";
-		};
-		389350C828B7F6D100B18C8B /* Authenticator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Authenticator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
