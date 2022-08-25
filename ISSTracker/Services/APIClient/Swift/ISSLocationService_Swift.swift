@@ -10,7 +10,11 @@ import Combine
 import CoreLocation
 
 final class ISSService {
-    private let service = ISSLocationService()
+    private let service: ISSLocationServiceProtocol
+
+    init(_ service: ISSLocationServiceProtocol = ISSLocationService()) {
+        self.service = service
+    }
 
     func getLocation() -> AnyPublisher<CLLocationCoordinate2D, Error> {
         Future { [weak service] promise in
