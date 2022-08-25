@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		3893508628B7CC3F00B18C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893508528B7CC3F00B18C8B /* AppDelegate.swift */; };
 		3893508828B7CC3F00B18C8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893508728B7CC3F00B18C8B /* SceneDelegate.swift */; };
-		3893508A28B7CC3F00B18C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893508928B7CC3F00B18C8B /* ViewController.swift */; };
 		3893508D28B7CC3F00B18C8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3893508B28B7CC3F00B18C8B /* Main.storyboard */; };
 		3893508F28B7CC4000B18C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3893508E28B7CC4000B18C8B /* Assets.xcassets */; };
 		3893509228B7CC4000B18C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3893509028B7CC4000B18C8B /* LaunchScreen.storyboard */; };
 		3893509D28B7CC4000B18C8B /* ISSTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3893509C28B7CC4000B18C8B /* ISSTrackerTests.swift */; };
 		389350A728B7CC4000B18C8B /* ISSTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350A628B7CC4000B18C8B /* ISSTrackerUITests.swift */; };
 		389350A928B7CC4000B18C8B /* ISSTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350A828B7CC4000B18C8B /* ISSTrackerUITestsLaunchTests.swift */; };
+		389350C228B7F5C100B18C8B /* ISSLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 389350BE28B7F5C100B18C8B /* ISSLocationService.m */; };
+		389350C328B7F5C100B18C8B /* ISSLocationService_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350C128B7F5C100B18C8B /* ISSLocationService_Swift.swift */; };
+		389350C628B7F68F00B18C8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350C528B7F68F00B18C8B /* ViewController.swift */; };
+		389350CA28B7F73900B18C8B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350C928B7F73900B18C8B /* ViewModel.swift */; };
+		389350CC28B7F79900B18C8B /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350CB28B7F79900B18C8B /* Actions.swift */; };
+		389350CE28B7F7FB00B18C8B /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389350CD28B7F7FB00B18C8B /* Feedback.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +44,6 @@
 		3893508228B7CC3F00B18C8B /* ISSTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3893508528B7CC3F00B18C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3893508728B7CC3F00B18C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3893508928B7CC3F00B18C8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3893508C28B7CC3F00B18C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3893508E28B7CC4000B18C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3893509128B7CC4000B18C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		389350A228B7CC4000B18C8B /* ISSTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389350A628B7CC4000B18C8B /* ISSTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSTrackerUITests.swift; sourceTree = "<group>"; };
 		389350A828B7CC4000B18C8B /* ISSTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		389350B728B7CCC700B18C8B /* ISSTracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ISSTracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		389350BE28B7F5C100B18C8B /* ISSLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSLocationService.m; sourceTree = "<group>"; };
+		389350BF28B7F5C100B18C8B /* ISSLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSLocationService.h; sourceTree = "<group>"; };
+		389350C128B7F5C100B18C8B /* ISSLocationService_Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISSLocationService_Swift.swift; sourceTree = "<group>"; };
+		389350C528B7F68F00B18C8B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		389350C928B7F73900B18C8B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		389350CB28B7F79900B18C8B /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		389350CD28B7F7FB00B18C8B /* Feedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,10 @@
 		3893508428B7CC3F00B18C8B /* ISSTracker */ = {
 			isa = PBXGroup;
 			children = (
+				389350B528B7CC9200B18C8B /* Services */,
 				3893508528B7CC3F00B18C8B /* AppDelegate.swift */,
 				3893508728B7CC3F00B18C8B /* SceneDelegate.swift */,
-				3893508928B7CC3F00B18C8B /* ViewController.swift */,
+				389350C428B7F68F00B18C8B /* Scenes */,
 				3893508B28B7CC3F00B18C8B /* Main.storyboard */,
 				3893508E28B7CC4000B18C8B /* Assets.xcassets */,
 				3893509028B7CC4000B18C8B /* LaunchScreen.storyboard */,
@@ -125,6 +138,68 @@
 				389350A828B7CC4000B18C8B /* ISSTrackerUITestsLaunchTests.swift */,
 			);
 			path = ISSTrackerUITests;
+			sourceTree = "<group>";
+		};
+		389350B528B7CC9200B18C8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				389350C728B7F6D000B18C8B /* Location */,
+				389350B628B7CC9200B18C8B /* APIClient */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		389350B628B7CC9200B18C8B /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				389350BD28B7F5C100B18C8B /* ObjC */,
+				389350C028B7F5C100B18C8B /* Swift */,
+				389350B728B7CCC700B18C8B /* ISSTracker-Bridging-Header.h */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		389350BD28B7F5C100B18C8B /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				389350BE28B7F5C100B18C8B /* ISSLocationService.m */,
+				389350BF28B7F5C100B18C8B /* ISSLocationService.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		389350C028B7F5C100B18C8B /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				389350C128B7F5C100B18C8B /* ISSLocationService_Swift.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		389350C428B7F68F00B18C8B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				389350C528B7F68F00B18C8B /* ViewController.swift */,
+				389350C928B7F73900B18C8B /* ViewModel.swift */,
+				389350CB28B7F79900B18C8B /* Actions.swift */,
+				389350CD28B7F7FB00B18C8B /* Feedback.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		389350C728B7F6D000B18C8B /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				389350C828B7F6D100B18C8B /* Authenticator */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		389350C828B7F6D100B18C8B /* Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authenticator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +270,7 @@
 				TargetAttributes = {
 					3893508128B7CC3F00B18C8B = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 					3893509728B7CC4000B18C8B = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -258,9 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3893508A28B7CC3F00B18C8B /* ViewController.swift in Sources */,
+				389350C628B7F68F00B18C8B /* ViewController.swift in Sources */,
 				3893508628B7CC3F00B18C8B /* AppDelegate.swift in Sources */,
 				3893508828B7CC3F00B18C8B /* SceneDelegate.swift in Sources */,
+				389350C228B7F5C100B18C8B /* ISSLocationService.m in Sources */,
+				389350CA28B7F73900B18C8B /* ViewModel.swift in Sources */,
+				389350C328B7F5C100B18C8B /* ISSLocationService_Swift.swift in Sources */,
+				389350CE28B7F7FB00B18C8B /* Feedback.swift in Sources */,
+				389350CC28B7F79900B18C8B /* Actions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +516,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ISSTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -452,6 +535,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcs12.apple.ISSTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ISSTracker/Services/APIClient/ISSTracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,8 +547,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ISSTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,6 +566,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pkcs12.apple.ISSTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ISSTracker/Services/APIClient/ISSTracker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
